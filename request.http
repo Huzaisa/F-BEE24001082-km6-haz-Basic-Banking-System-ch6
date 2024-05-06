@@ -2,7 +2,7 @@
 POST http://localhost:3000/v1/api/images
 Content-Type: multipart/form-data
 
-file=@/path/to/your/image.jpg
+file=@/path/image.jpg
 judul=Judul gambar
 deskripsi=Deskripsi gambar
 
