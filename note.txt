@@ -1,0 +1,7 @@
+expressjs-production-huzi.up.railway.app
+
+ENDPOINT: POST /v1/api/images
+ENDPOINT: GET /v1/api/images
+ENDPOINT: GET /v1/api/images:id
+ENDPOINT: DELETE /v1/api/images:id
+ENDPOINT: PUT /v1/api/images:id
