@@ -1,0 +1,17 @@
+### Menambahkan gambar baru
+POST http://localhost:3000/v1/api/images
+Content-Type: multipart/form-data
+
+file=@/path/to/your/image.jpg
+judul=Judul gambar
+deskripsi=Deskripsi gambar
+
+### Melihat daftar gambar
+GET http://localhost:3000/v1/api/images
+
+### Menghapus gambar berdasarkan ID
+POST http://localhost:3000/v1/api/images/delete/1
+Content-Type: application/json
+
+{}
+
